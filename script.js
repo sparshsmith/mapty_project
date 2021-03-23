@@ -95,8 +95,8 @@ class App {
 
         console.log(`https://www.google.com/maps/@${latitude}.${longitude}`)
 
-        //const coords = [latitude, longitude];
-        const coords = [23.1489773, 75.7952836];
+        const coords = [latitude, longitude];
+        //const coords = [23.1489773, 75.7952836];
 
         this.#map = L.map('map').setView(coords, this.#mapZoomlevel);
 
